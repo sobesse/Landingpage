@@ -1,0 +1,8 @@
+.footer{
+	text-align: center;
+	color: white;
+	padding: 2px 0; /*padding en haut et bas de 32 et 0 sur les côtés*/
+	background-color: MediumVioletRed;
+	font-size: small;
+	line-height: 60%;
+}

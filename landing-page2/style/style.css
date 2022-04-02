@@ -1,0 +1,96 @@
+@import	url('banner.css');
+@import url('button.css');
+@import url('cards.css');
+@import url('footer.css');
+@import url('billet.css');
+
+body{
+	margin: 0;
+	background:linear-gradient(0deg, rgba(255,108,235,0.2), rgba(255,108,235,0.2)),url(../images/festival1.jpg);
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+	font-family: 'Arial';
+}
+
+a{text-decoration: none;}
+
+
+.reseaux{
+	align-items: left;
+	list-style: none;
+}
+.reseaux li{
+	display: inline;
+	margin: 5px;
+	padding: 0 5px;
+}
+.reseaux a{
+	font-size: 20px;
+	color: white;
+	cursor: pointer;
+}
+.reseaux li a:hover{
+	color: MediumVioletRed;
+}
+
+.onglets{
+	text-align: right;
+	list-style: none;
+	font-weight: bold;
+}
+
+.onglets li{
+	display: inline;
+	margin: 5px;
+}
+
+.onglets a{
+	font-size: 15px;
+	color: white;
+	cursor: pointer;
+}
+.onglets a:hover{
+	color: MediumVioletRed;
+}
+
+.container1{
+	justify-content: right;
+	display: flex;
+	width: 100%;
+	margin: 0 auto;
+	position: fixed;
+	top: 0;
+	z-index: 1000;
+	background-color: rgba(0,0,0,0.5);
+
+}
+.container2{
+	width: 100%;
+	background-color: rgba(255,255,255,0.5);
+	background-position: cover;
+	margin:0;
+	text-align: left;
+}
+
+.container3{
+	width: 100%;
+	background-color: rgba(255,255,255,0.5);
+	background-position: cover;
+	margin:0;
+	text-align: left;
+}
+
+.container4{
+	width: 100%;
+	height: 100%;
+	margin:0;
+	text-align: center;
+	justify-content: center;
+	background-image: url("../images/festival4.jpg");
+	background-size: cover;
+	background-position: center;
+	background-attachment: fixed;
+
+}
+

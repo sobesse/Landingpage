@@ -1,0 +1,19 @@
+.banner{
+	height: 100vh;
+	color: white;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	filter: drop-shadow(5px 5px 5px black);
+	font-family: 'Arial';
+}
+
+.banner h1, .banner h2{
+	text-shadow: 1px 1px 1px black;
+}
+
+
+@media (min-width: 576px) {
+	.banner{background-position: center;}

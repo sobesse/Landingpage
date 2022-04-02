@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>SugArts Festival</title>
+	<meta name="description" content="Retrouvez le plus grand festival étudiant organisé par les Arts et Métiers le 21 mai 2022 au Parc Floral.">
+	<link rel="stylesheet" href="style/style.css">
+	<script src="https://kit.fontawesome.com/56b445f2b0.js" crossorigin="anonymous"></script>
+</head>
+<body>
+
+
+	<!-- Banner section -->
+	<div class=container1>
+		<div class="onglets">
+			<ul class="onglet">
+				<li>
+					<a href="#ancre1">Infos event</a>
+				</li>
+				<li>
+					<a href="#ancre2">Organisateur</a>
+				</li>
+				<li>
+					<a href="#ancre3">Billeterie</a>
+				</li>
+			</ul>
+		</div>
+		<div class="reseaux">
+			<ul class="reseaux">
+				<li>
+					<a href="https://fb.me/e/1IwRT3RvE">
+					<i class="fa-brands fa-facebook-f"></i></a>
+				</li>
+				<li>
+					<a href="https://www.instagram.com/accounts/login/?next=/sugartsfestival/" target="blank">
+					<i class="fa-brands fa-instagram"></i></a>
+				</li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="banner">
+		<h1>SUGARTS FESTIVAL</h1>
+		<h2>🎊Commence ton été 2022 en beauté🎉</h2>
+		<a href="#ancre3" class="btn-blue">Achète ton billet !</a>
+	</div>
+
+<!-- Infos section-->
+	<div class="container2" id=ancre1>
+
+		<div class="cards">
+			
+			<div class="card">
+					<img src="images/parc.jpg" alt="Parc floral">
+			</div>
+
+			<div class="card">
+				<h3>Qu'est-ce que c'est ?</h3>
+				<p>Un événement organisé par les <b>étudiants ingénieurs des Arts et Métiers</b> pour une soirée d’AN-THO-LO-GIE le Samedi 21 mai 2022 au Parc Floral (Route de la Pyramide, 75012 Paris), débutera à 21h et se terminera à 5h du matin pour pouvoir profiter des premiers métros.</p>
+				<p>A moins de 20 min de Châtelet, au cœur d’un des plus grand <b>espace vert de Paris</b>, quel meilleur spot pour profiter des plus grosses têtes d’affiches du moment rassemblées en un seul et même endroit ? 📍🕺🏻</p>
+				<p>On vous donne rendez-vous pour toute une <b>soirée de festival au cœur du Parc Floral</b> avec un programmation à la croisée des chemins entre l'<b>Urbain et l'Electro</b> !🎤⚡️</p>
+				<p>Au programme de cette édition exceptionelle :
+					<ul>
+						<li>🔊 Plusieurs scènes</li>
+						<li>🎸 Vos artistes préférés</li>
+						<li>🎪 Différentes thématiques</li>
+						<li>🤯 10 000 étudiants</li>
+						<li>💐 Parc Floral de Paris</li>
+					</ul>
+				</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container3" id=ancre2>
+
+		<div class="cards">
+
+			<div class="card">
+				<h3>Qui sommes-nous ?</h3>
+				<p>En 2022, suite à la pandémie de Covid qui a suspendu pendant 2 ans l’ensemble des évènements étudiants, un comité d’élève a décidé de prendre un nouveau départ. C’est ainsi que le Sugarts Festival, <b>héritier du très connu Grand Gala des Arts & Métiers</b> 💃 s'est créé.</p>
+				<p>Le but de cet évènement : <b>renouer avec la vie étudiante dans un évènement symbolisant la légèreté et la convivialité en cette fin d’année</b>. 💖</p>
+				<p>L'édition précédente ayant été annulée à cause du Covid, l'équipe remet ça à 2022, pour votre plus grand plaisir ! 😘 </p>
+			</div>
+
+			<div class="card">
+					<img src="images/festival3.jpg" alt="festival">
+			</div>
+		</div>
+	</div>
+
+
+<!-- Billeterie section -->
+
+<div class=container4 id=ancre3>
+	
+	<div class="billet">
+		<h1>Billeterie</h1>
+		<p>Remplis le formulaire ci-dessous avant de procéder au paiement</p>
+		<center><form action="/page-traitement-donnees" method="post">
+			<div>
+				<label for="nom">Ton prénom</label>
+				<input type="text" id="nom" name="nom" placeholder="Sylvain" required>
+			</div>
+			<div>
+				<label for="nom">Ton nom</label>
+				<input type="text" id="nom" name="nom" placeholder="Galtier" required>
+			</div>
+			<div>
+				<label for="email">Ton e-mail</label>
+				<input type="email" id="email" name="email" placeholder="monadresse@mail.com" required>
+			</div>
+			<div>
+				<label for="sujet">Es-tu étudiant ?</label>
+				<select name="sujet" id="sujet" required>
+					<option value="" disabled selected hidden>Oui / non</option>
+					<option value="probleme-compte">Oui</option>
+					<option value="question-produit">Non</option>
+				</select>
+			</div>
+			<div>
+				<a href="https://www.sugarts-festival.com/bienvenue" class="button" target="blank">Envoyer</a>
+			</div>
+		</form></center>
+	</div>
+</div>
+
+
+	<div class="footer">
+		<p>Union des Elèves - Arts et Métiers</p>
+		<p>1 avenue Pierre Masse</p>
+		<p>75014 Paris</p>
+	</div>
+
+</body>
+</html>
